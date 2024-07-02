@@ -13,9 +13,7 @@ yarn-error.log
 
 # IDEs and editors
 .idea/
-*.iml
-*.ipr
-*.iws
+.project
 .classpath
 .c9/
 *.launch
@@ -23,12 +21,12 @@ yarn-error.log
 *.sublime-workspace
 
 # Visual Studio Code
-.vscode/
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/
+.history/*
 
 # Miscellaneous
 /.angular/cache
@@ -38,20 +36,7 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
-/typings.json
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Temporary
-tmp/
-temp/
-# Ignore package-lock.json and yarn.lock
-package-lock.json
-yarn.lock
